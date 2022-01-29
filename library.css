@@ -51,11 +51,4 @@ li a:hover {
     background-color:black;
     color: white;
 }
-.odd-Section h1{
-    display: block;
-    margin: auto;
-    background-color: lightgray;
-    height: 50rem;
-    width: 100%;
 
-}

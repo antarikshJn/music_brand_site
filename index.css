@@ -1,3 +1,92 @@
-h1{
-    color:red;
+* {
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 1rem;
+    padding-bottom: 0%;
+    margin-top: 1rem;
+    float: left;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+#searchButton {
+    float: right;
+    color: white;
+    padding: 1rem;
+    padding-bottom: 0%;
+    margin-top: 1rem;
+}
+
+#mainImageAndText {
+    display: inline;
+}
+
+#mainImageAndText img {
+    width: 100%;
+    height: 43rem;
+    display: inline;
+}
+
+#headingText {
+    display: inline;
+}
+#headingText h1{
+        display: inline;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 65px;
+        color: black;
+        text-shadow: 2px 2px #FF0000;
+        transform: translate(-50%, -50%);
+}
+#headingText h2{
+        display: inline;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        font-size: 25px;
+        color:white;
+        text-shadow: 2px 2px red;
+        transform: translate(-50%, -50%);
+        text-align: center;
+}
+.odd-Section {
+    height: 35rem;
+    width: 100%;
+    background-color: white;
+}
+
+.even-Section {
+    height: 35rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+
 }
