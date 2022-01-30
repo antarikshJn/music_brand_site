@@ -56,27 +56,30 @@ li a:hover {
 #headingText {
     display: inline;
 }
-#headingText h1{
-        display: inline;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        font-size: 65px;
-        color: black;
-        text-shadow: 2px 2px #FF0000;
-        transform: translate(-50%, -50%);
+
+#headingText h1 {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 65px;
+    color: black;
+    text-shadow: 2px 2px #FF0000;
+    transform: translate(-50%, -50%);
 }
-#headingText h2{
-        display: inline;
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        font-size: 25px;
-        color:white;
-        text-shadow: 2px 2px red;
-        transform: translate(-50%, -50%);
-        text-align: center;
+
+#headingText h2 {
+    display: inline;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px red;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
+
 .odd-Section {
     height: 35rem;
     width: 100%;
